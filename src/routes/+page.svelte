@@ -7,7 +7,8 @@
 
 <main class="mx-10">
 	{#each data.books as book, index (book.id)}
-		<p>Title: {book.title}</p>
-		<p>Description: Bla bla bla</p>
+		<p class="text-2xl text-blue-400">Title: {book.title}</p>
+		<p>{book.description}</p>
 	{/each}
 </main>
+
