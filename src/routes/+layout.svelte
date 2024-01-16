@@ -3,7 +3,14 @@
 	import Navbar from '../components/Navbar.svelte';
 </script>
 
-<main class="mx-10 my-5">
+<main class="max-w-6xl mx-auto my-5">
 	<Navbar />
-	<slot />
+	<main class="my-28">
+		<h1 class="my-5 text-xl font-semibold text-gray-700">Good Morning, John</h1>
+		<ul class="flex gap-2 text-sm font-semibold">
+			<li><a href="/">All Books</a></li>
+			<li><a href="/">Bookmark</a></li>
+		</ul>
+		<slot />
+	</main>
 </main>
