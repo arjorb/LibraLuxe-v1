@@ -1,8 +1,8 @@
 <main class="flex items-center justify-between">
-	<div class="flex items-center gap-1 cursor-pointer">
+	<a href="/" class="flex items-center gap-1">
 		<span class="text-3xl">♾️</span>
 		<span class="text-xl font-semibold text-gray-500">LibraLuxe </span>
-	</div>
+	</a>
 
 	<div class="">
 		<img
