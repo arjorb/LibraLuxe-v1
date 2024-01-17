@@ -18,6 +18,7 @@
 					type="text"
 					name="title"
 					class="w-full px-2 py-3 border border-gray-200 rounded outline-none"
+					required
 				/>
 			</label>
 			<label class="w-full">
@@ -26,6 +27,7 @@
 					type="text"
 					name="genre"
 					class="w-full px-2 py-3 border border-gray-200 rounded outline-none"
+					required
 				/>
 			</label>
 		</div>
@@ -36,6 +38,7 @@
 					name="description"
 					class="w-full px-2 py-3 border border-gray-200 rounded outline-none resize-none"
 					rows="10"
+					required
 				/>
 			</label>
 		</div>
@@ -47,6 +50,7 @@
 					type="text"
 					name="language"
 					class="w-full px-2 py-3 border border-gray-200 rounded outline-none"
+					required
 				/>
 			</label>
 			<label class="w-full">
@@ -55,6 +59,7 @@
 					type="text"
 					name="publication"
 					class="w-full px-2 py-3 border border-gray-200 rounded outline-none"
+					required
 				/>
 			</label>
 			<label class="w-full">
@@ -63,6 +68,7 @@
 					type="number"
 					name="pages"
 					class="w-full px-2 py-3 border border-gray-200 rounded outline-none"
+					required
 				/>
 			</label>
 		</div>
@@ -79,7 +85,7 @@
 					</p>
 					<p class="text-xs text-gray-500 dark:text-gray-400">PNG, JPG or GIF (MAX. 800x400px)</p>
 				</div>
-				<input id="dropzone-file" name="image" type="file" class="hidden" />
+				<input id="dropzone-file" name="image" type="file" class="hidden" required />
 			</label>
 		</div>
 
