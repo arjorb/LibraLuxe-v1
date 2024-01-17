@@ -8,6 +8,7 @@
 					type="email"
 					placeholder="Enter Email"
 					class="w-full px-2 py-5 border border-gray-200 rounded outline-none"
+					required
 				/>
 			</label>
 			<label class="flex flex-col text-gray-500">
@@ -16,6 +17,7 @@
 					type="password"
 					placeholder="Enter Password"
 					class="w-full px-2 py-5 border border-gray-200 rounded outline-none"
+					required
 				/>
 			</label>
 			<button class="right-0 px-8 py-2 text-white bg-blue-500 rounded-sm">Log in</button>

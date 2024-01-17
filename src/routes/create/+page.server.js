@@ -1,7 +1,6 @@
 import supabase from '$lib/supabase.js';
 import { redirect } from '@sveltejs/kit';
 
-supabase;
 export const actions = {
 	create: async ({ request }) => {
 		const formData = await request.formData();
